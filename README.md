@@ -20,8 +20,6 @@ MonteCarlo-Monedas/
 ├── results/ # Datos y gráficas generados
 └── README.md # Este archivo
 
-text
-
 ## 🔧 Requisitos
 ### Compilación (C++):
 - Compilador C++11 o superior (g++, clang++, MSVC)
@@ -44,8 +42,6 @@ g++ -std=c++11 -o montecarlo.exe src/*.cpp
 2. Ejecutar la simulación:
 bash
 ./montecarlo  # o montecarlo.exe en Windows
-3. Ingresar parámetros:
-
 
 📊 Gráficas Generadas
 El programa crea tres gráficas en la carpeta results/:
