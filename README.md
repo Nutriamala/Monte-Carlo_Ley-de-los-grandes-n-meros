@@ -45,16 +45,7 @@ g++ -std=c++11 -o montecarlo.exe src/*.cpp
 bash
 ./montecarlo  # o montecarlo.exe en Windows
 3. Ingresar parámetros:
-El programa pedirá el número de lanzamientos. Ejemplos:
 
-1000 para una simulación rápida
-
-100000 para mayor precisión
-
-1000000 para ver claramente la convergencia
-
-4. Generar gráficas automáticamente:
-Al terminar la simulación, se ejecutará automáticamente el script Python para generar las gráficas.
 
 📊 Gráficas Generadas
 El programa crea tres gráficas en la carpeta results/:
